@@ -14,8 +14,8 @@ import {
 import { ServiceItem, AdvantageItem } from './types';
 
 export const CONTACT_INFO = {
-  phones: ["693 198 552", "678 169 618", "690 808 346", "620 856 426"],
-  email: "notecconsulting@gmail.com",
+  phones: ["678 169 618"],
+  email: "kenssvces@gmail.com",
   location: "Douala, Cameroun"
 };
 

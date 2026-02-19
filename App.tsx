@@ -8,7 +8,8 @@ import {
   X,
   Calculator,
   TrendingUp,
-  MessageCircle 
+  MessageCircle,
+  Mail 
 } from 'lucide-react';
 import { CONTACT_INFO, SERVICES } from './constants';
 
@@ -232,6 +233,16 @@ const App: React.FC = () => {
                         </a>
                       ))}
                     </div>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-6">
+                  <div className="bg-white/10 p-5 rounded-3xl"><Mail className="w-8 h-8" /></div>
+                  <div>
+                    <p className="font-black text-xl mb-3 tracking-wide">Email</p>
+                    <a href={`mailto:${CONTACT_INFO.email}`} className="text-blue-50 hover:text-white text-xl font-medium transition-colors">
+                      {CONTACT_INFO.email}
+                    </a>
                   </div>
                 </div>
                 
